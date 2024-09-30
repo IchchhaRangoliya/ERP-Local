@@ -161,7 +161,20 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
-*.tar
-*.log
-*.gz
+
 *.mmdb
+*.pyc
+*.log
+*.swp
+*.DS_Store
+node_modules/
+sites/assets/
+sites/*/locks/
+sites/*/private/files/
+sites/*/public/files/
+sites/*/private/backups/
+env/
+logs/
+*.tar
+*.gz
+__pycache__/
